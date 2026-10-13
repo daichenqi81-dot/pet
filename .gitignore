@@ -1,0 +1,27 @@
+# Dependencies and local tooling
+node_modules/
+.pnpm-store/
+.cache/
+.temp/
+tmp/
+
+# Build and packaging byproducts
+*.tar
+*.tar.gz
+*.zip
+*.log
+coverage/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
